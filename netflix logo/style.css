@@ -1,0 +1,53 @@
+body {
+     margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center ;
+    align-items:center ;
+    background:black;
+    height:100vh;
+}
+.netflix{
+     
+     position:relative ;
+     height:520px;
+     width:360px;
+      transform:scale(0.8);
+      overflow:hidden ;
+
+}
+.netflix span{
+    
+    position:absolute ;
+    background:#fff;
+    height:100%;
+    width:120px;
+    top:0;  
+}
+.netflix span:nth-child(1){
+    
+    background:#b00612;
+    left:0;
+}
+
+.netflix span:nth-child(2){
+    
+    background:#e50815;
+    box-shadow:0 0 40px rgba(0,0,0,1);
+    transform:skewX(25deg);
+    transform-origin:top left;
+    left:0;
+    z-index:1;
+}
+.netflix span:nth-child(3){
+    
+    background:#b00612;
+    right:0;
+}
+marquee{
+    
+    color:#fff;
+    font-weight:bold ;
+    font-style:italic ;
+    font-size:40px;
+}
